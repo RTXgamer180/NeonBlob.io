@@ -1,5 +1,5 @@
 flask
-sockets
+websockets
 request
 json
 threads
