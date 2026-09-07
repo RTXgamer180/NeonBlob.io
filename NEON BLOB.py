@@ -21,7 +21,7 @@ WORLD_WIDTH = 5000
 WORLD_HEIGHT = 5000
 
 COIN_COUNT = 100
-PLAYER_SPEED = 10                 # px per 1/60s tick (keeps old feel)
+PLAYER_SPEED = 1                 # px per 1/60s tick (keeps old feel)
 PLAYER_TIMEOUT = 30
 MAX_PLAYERS = 100
 MIN_KILL_RATIO = 1.18
