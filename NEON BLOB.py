@@ -17,18 +17,18 @@ app = Flask(__name__)
 # CONFIG
 # ============================================================
 
-WORLD_WIDTH = 5000
-WORLD_HEIGHT = 5000
+WORLD_WIDTH = 50000
+WORLD_HEIGHT = 50000
 
 COIN_COUNT = 100
-PLAYER_SPEED = 1                 # px per 1/60s tick (keeps old feel)
+PLAYER_SPEED = 10                 # px per 1/60s tick (keeps old feel)
 PLAYER_TIMEOUT = 30
-MAX_PLAYERS = 100
+MAX_PLAYERS = 20
 MIN_KILL_RATIO = 1.18
 BASE_PLAYER_RADIUS = 29
 MAX_PLAYER_RADIUS = 85
 SPEED_BOOST_MULTIPLIER = 1.85
-POWERUP_COUNT = 18
+POWERUP_COUNT = 10
 POWERUP_DURATION = 6.0
 SESSION_TIMEOUT = 60 * 60 * 24 * 7  # 7 days
 PASSWORD_ITERATIONS = 310_000
