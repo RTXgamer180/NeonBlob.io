@@ -17,8 +17,8 @@ app = Flask(__name__)
 # CONFIG
 # ============================================================
 
-WORLD_WIDTH = 2000
-WORLD_HEIGHT = 2000
+WORLD_WIDTH = 5000
+WORLD_HEIGHT = 5000
 
 COIN_COUNT = 100
 PLAYER_SPEED = 10                 # px per 1/60s tick (keeps old feel)
